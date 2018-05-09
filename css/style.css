@@ -1,0 +1,106 @@
+body {
+	 background-color: #0043ff14;
+	 color:#404095;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 860px;
+	margin: auto;
+}
+
+.container.lyrics {
+	background-color: #0037fe26;
+}
+
+ul#nav {
+    display: inline-flex;
+		margin: -3px 0 4px 0;
+		padding-left: 0;
+		background-color: #0037fe26;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+}
+
+li {
+    width: 215px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li:hover{
+		background-color: #ffffff1f;
+}
+
+.music-link {
+	background-color: #ffffff1f;
+}
+
+li a {
+	font-family: "Source serif pro";
+	color: #4040958c;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+li a:hover {
+	color: #404095db;
+}
+
+.lyrics-section {
+ 	display: flex;
+}
+
+.album {
+  padding-right: 30px;
+}
+
+.album img {
+	max-width: 450px;
+  border: 2px solid #5a5ab64d;
+	margin: 10px;
+}
+
+.album h3 {
+	font-family: 'Pacifico';
+	text-align: center;
+	font-weight: normal;
+  color: #4040958c;
+  font-size: 1.8em;
+	margin-top: -10px;
+	margin-bottom: 0;
+}
+
+.album h4 {
+    margin-top: -5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Source serif pro";
+    letter-spacing: 3px;
+    font-weight: normal;
+    color: #4040958c;
+}
+
+.lyrics h1 {
+	font-family: "Source serif pro";
+	font-weight: normal;
+  text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.lyrics h3 {
+	text-align: center;
+	font-family: "Source serif pro";
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.lyrics p {
+	text-align: center;
+	font-family: "Source serif pro";
+}
